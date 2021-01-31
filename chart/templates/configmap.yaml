@@ -1,0 +1,21 @@
+kind: ConfigMap
+apiVersion: v1
+metadata:
+  name: {{ include "spring-boot.fullname" . }}
+data:
+  application.yml: |-
+    app:
+      zookeeper:
+        host: "zookeeper.default.svc.cluster.local:2181"
+    spring:
+      application:
+        name: {{ include "spring-boot.fullname" . }}
+      data:
+        cassandra:
+          keyspace-name: "urls"
+          username: "cassandra"
+          password: "changemepls"
+          contact-points: "tinydb-cassandra.default.svc.cluster.local:9042"
+          local-datacenter: "datacenter1"
+          schema-action: create_if_not_exists
+    {{- toYaml .Values.config | nindent 4 }}
