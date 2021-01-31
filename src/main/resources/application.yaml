@@ -1,0 +1,12 @@
+app:
+  zookeeper:
+    host: "localhost:2181"
+spring:
+  data:
+    cassandra:
+      keyspace-name: "urls"
+      username: "cassandra"
+      password: "cassandra"
+      contact-points: "localhost:9042"
+      local-datacenter: "datacenter1"
+      schema-action: create_if_not_exists
