@@ -1,4 +1,4 @@
-package com.aminhjz.interview.urlshortner.urlshortner.controller.dto;
+package com.aminhjz.interview.urlshortener.controller.dto;
 
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonProperty;

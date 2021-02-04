@@ -1,4 +1,4 @@
-package com.aminhjz.interview.urlshortner.urlshortner.exception;
+package com.aminhjz.interview.urlshortener.exception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.server.ResponseStatusException;

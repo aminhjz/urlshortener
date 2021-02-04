@@ -1,4 +1,4 @@
-package com.aminhjz.interview.urlshortner.urlshortner;
+package com.aminhjz.interview.urlshortener;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

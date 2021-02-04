@@ -1,4 +1,4 @@
-package com.aminhjz.interview.urlshortner.urlshortner.configuration;
+package com.aminhjz.interview.urlshortener.configuration;
 
 import org.apache.curator.framework.CuratorFramework;
 import org.apache.curator.framework.CuratorFrameworkFactory;

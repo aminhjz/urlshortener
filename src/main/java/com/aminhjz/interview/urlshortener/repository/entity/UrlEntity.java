@@ -1,4 +1,4 @@
-package com.aminhjz.interview.urlshortner.urlshortner.repository.entity;
+package com.aminhjz.interview.urlshortener.repository.entity;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.cassandra.core.mapping.Table;

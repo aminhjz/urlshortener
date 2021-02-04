@@ -1,4 +1,4 @@
-package com.aminhjz.interview.urlshortner.urlshortner.service;
+package com.aminhjz.interview.urlshortener.service;
 
 import org.apache.curator.framework.CuratorFramework;
 import org.apache.curator.framework.recipes.atomic.AtomicValue;

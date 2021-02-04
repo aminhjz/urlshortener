@@ -1,15 +1,12 @@
-package com.aminhjz.interview.urlshortner.urlshortner.controller;
+package com.aminhjz.interview.urlshortener.controller;
 
-import com.aminhjz.interview.urlshortner.urlshortner.controller.dto.ShortUrlPairDto;
-import com.aminhjz.interview.urlshortner.urlshortner.controller.dto.ShortUrlRequestDto;
-import com.aminhjz.interview.urlshortner.urlshortner.service.UrlService;
+import com.aminhjz.interview.urlshortener.controller.dto.ShortUrlPairDto;
+import com.aminhjz.interview.urlshortener.controller.dto.ShortUrlRequestDto;
+import com.aminhjz.interview.urlshortener.service.UrlService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import org.springframework.web.server.ResponseStatusException;
-
-import java.util.Optional;
 
 @RestController
 @RequestMapping("/api/1/urls")

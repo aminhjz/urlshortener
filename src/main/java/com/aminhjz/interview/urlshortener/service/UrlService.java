@@ -1,15 +1,11 @@
-package com.aminhjz.interview.urlshortner.urlshortner.service;
+package com.aminhjz.interview.urlshortener.service;
 
-import com.aminhjz.interview.urlshortner.urlshortner.controller.dto.ShortUrlPairDto;
-import com.aminhjz.interview.urlshortner.urlshortner.exception.ShortUrlNotFound;
-import com.aminhjz.interview.urlshortner.urlshortner.repository.UrlRepository;
-import com.aminhjz.interview.urlshortner.urlshortner.repository.entity.UrlEntity;
-import com.aminhjz.interview.urlshortner.urlshortner.utils.Base62Utils;
+import com.aminhjz.interview.urlshortener.exception.ShortUrlNotFound;
+import com.aminhjz.interview.urlshortener.repository.UrlRepository;
+import com.aminhjz.interview.urlshortener.repository.entity.UrlEntity;
+import com.aminhjz.interview.urlshortener.utils.Base62Utils;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
-import org.springframework.web.server.ResponseStatusException;
 
 import java.util.Optional;
 

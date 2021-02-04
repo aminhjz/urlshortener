@@ -1,8 +1,7 @@
-package com.aminhjz.interview.urlshortner.urlshortner;
+package com.aminhjz.interview.urlshortener;
 
-import com.aminhjz.interview.urlshortner.urlshortner.controller.dto.ShortUrlRequestDto;
+import com.aminhjz.interview.urlshortener.controller.dto.ShortUrlRequestDto;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.cassandra.CassandraAutoConfiguration;

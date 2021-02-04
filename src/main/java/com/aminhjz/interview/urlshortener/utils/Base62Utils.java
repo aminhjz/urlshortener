@@ -1,4 +1,4 @@
-package com.aminhjz.interview.urlshortner.urlshortner.utils;
+package com.aminhjz.interview.urlshortener.utils;
 
 public class Base62Utils {
     private static final String ALPHABET = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";

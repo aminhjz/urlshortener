@@ -1,6 +1,6 @@
-package com.aminhjz.interview.urlshortner.urlshortner;
+package com.aminhjz.interview.urlshortener;
 
-import com.aminhjz.interview.urlshortner.urlshortner.utils.Base62Utils;
+import com.aminhjz.interview.urlshortener.utils.Base62Utils;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
